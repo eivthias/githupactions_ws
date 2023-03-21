@@ -7,7 +7,7 @@ inputs:
     default: 'Idasan and Ma10as'
 outputs:
   time:
-    description: 'The time we said hello.'
+    description: 'The time we said helloz.'
 runs:
   using: 'docker'
   image: 'Dockerfile'
