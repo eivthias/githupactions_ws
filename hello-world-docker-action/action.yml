@@ -1,3 +1,15 @@
-uses: actions/hello-world-docker-action@main
-with:
-  who-to-greet: 'Hello ma10as and Idasan'
+name: 'Hello World Docker Action'
+description: 'Say hello to a Ma10as and Idasan.'
+inputs:
+  who-to-greet:
+    description: 'Who to greet'
+    required: true
+    default: 'Idasan and Ma10as'
+outputs:
+  time:
+    description: 'The time we said hello.'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.who-to-greet }}
