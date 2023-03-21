@@ -1,0 +1,3 @@
+uses: actions/hello-world-docker-action@main
+with:
+  who-to-greet: 'Hello ma10as and Idasan'
