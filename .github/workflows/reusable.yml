@@ -1,1 +1,9 @@
 name: Reusable workflow
+on:
+  workflow_call:
+    inputs:
+      who-to-greet:
+        description: 'The persons to greet'
+        type: string
+        required: true
+        default: Ida and Mathias
