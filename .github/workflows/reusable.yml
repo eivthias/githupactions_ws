@@ -7,3 +7,9 @@ on:
         type: string
         required: true
         default: Ida and Mathias
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "Hellooo"
