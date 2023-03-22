@@ -9,10 +9,10 @@ on:
     - cron: '15 6 * * SUN'
   workflow_dispatch:
     inputs:
-       environment: 
-         type: environment
-         required: true
-         description: 'environment stuff'
+      environment: 
+        type: environment
+        required: true
+        description: 'environment stuff'
 jobs:
   Build:
     runs-on: ubuntu-latest
