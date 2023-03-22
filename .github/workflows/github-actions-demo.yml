@@ -10,9 +10,9 @@ on:
   workflow_dispatch:
     inputs:
        environment: 
-        type: environment
-        required: true
-        description: 'environment stuff'
+         type: environment
+         required: true
+         description: 'environment stuff'
 jobs:
   Build:
     runs-on: ubuntu-latest
