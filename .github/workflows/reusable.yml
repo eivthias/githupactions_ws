@@ -11,5 +11,5 @@ jobs:
   Build:
     runs-on: ubuntu-latest
     steps:
-      - run: |
-          echo "Hellooo"
+      - name: Greet someone
+        run: echo "Hellooooooo ${{ inputs.who-to-greet }}"
